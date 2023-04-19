@@ -1,6 +1,76 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Test</h1>
-</body>
+  <head>
+    <title>Mi página web</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      #header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      #main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+      }
+
+      .card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 20px;
+        max-width: 300px;
+        text-align: center;
+      }
+
+      .card h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .card p {
+        color: #666;
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      #footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Mi página web</h1>
+    </div>
+    <div id="main">
+      <div class="card">
+        <h2>Sección 1</h2>
+        <p>Descripción de la sección 1.</p>
+      </div>
+      <div class="card">
+        <h2>Sección 2</h2>
+        <p>Descripción de la sección 2.</p>
+      </div>
+      <div class="card">
+        <h2>Sección 3</h2>
+        <p>Descripción de la sección 3.</p>
+      </div>
+    </div>
+    <div id="footer">
+      <p>© 2023 - Todos los derechos reservados.</p>
+    </div>
+  </body>
 </html>
